@@ -1,0 +1,44 @@
+/* styles/Navbar.css */
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Pacifico&family=Poppins:wght@200&family=Raleway:ital,wght@0,300;0,400;0,600;1,200&family=Roboto+Mono:wght@300&display=swap');
+.navbar {
+  // width: 60vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: black
+  ;
+  font-family: 'Raleway',sans-serif;
+
+  /* Choose your preferred color */
+  color: white;
+  
+  .logo {
+    
+  font-family: 'Pacifico', cursive;
+    font-size: 1.5rem;
+    text-decoration: none;
+  color: white;
+}
+.user{
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  
+  &:hover {
+    color: dodgerblue;
+    
+    /* Change the color on hover */
+  }
+}
+}

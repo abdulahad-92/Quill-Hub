@@ -1,0 +1,35 @@
+/* BlogPost.css */
+
+.blog-post-container {
+    width: 98vw;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .post-meta {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .author {
+    margin-right: 20px;
+  }
+  
+  .date {
+    font-style: italic;
+  }
+  .blog-image {
+    width:100vw;
+    height: 60vh;
+    object-fit:fill;
+    margin-bottom: 20px;
+  }
+  
+  .blog-content {
+    margin-top: 20px;
+    color: #333;
+  }
+  
